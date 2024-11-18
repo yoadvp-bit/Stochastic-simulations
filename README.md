@@ -44,5 +44,6 @@ Install dependencies using:
 
 ```bash
 pip install numpy matplotlib scipy pillow smt
+```
 
 This project is licensed under the MIT License - see the LICENSE file for details.
