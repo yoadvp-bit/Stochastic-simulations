@@ -8,11 +8,7 @@ This repository provides Python code for computing and visualizing the Mandelbro
 
 1. [Overview](#overview)  
 2. [Requirements](#requirements)  
-3. [Usage](#usage)  
-4. [Key Functions](#key-functions)  
-5. [Experiments and Results](#experiments-and-results)  
-6. [Contributing](#contributing)  
-7. [License](#license)  
+3. [License](#license)  
 
 ---
 
@@ -45,5 +41,5 @@ Install dependencies using:
 ```bash
 pip install numpy matplotlib scipy pillow smt
 ```
-
+## License
 This project is licensed under the MIT License - see the LICENSE file for details.
