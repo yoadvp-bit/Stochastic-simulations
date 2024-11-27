@@ -10,9 +10,8 @@ This repository implements **Discrete Event Simulation (DES)** to analyze queuei
 2. [Simulation Details](#simulation-details)  
    - [Queueing Configurations](#queueing-configurations)  
    - [Objectives](#objectives)  
-3. [Directory Structure](#directory-structure)  
-4. [Requirements](#requirements)  
-5. [License](#license)  
+3. [Requirements](#requirements)  
+4. [License](#license)  
 
 ---
 
@@ -54,6 +53,24 @@ The primary goals of the simulation are:
 2. Assess the performance of FIFO vs. SJF scheduling strategies.
 3. Evaluate how deterministic M/D/n and hyperexponential M/H2/n service times affect performance metrics.
 4. Understand how traffic intensity ($\rho$) influences system behavior.
+
+## Requirements
+
+The project requires the following Python packages:
+
+- `Simpy`
+- `numpy`
+- `matplotlib`
+- `scipy`
+- `random`
+
+Install dependencies using:
+
+```bash
+pip install simpy numpy matplotlib scipy random
+```
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
 
 ---
 
