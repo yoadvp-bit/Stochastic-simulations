@@ -1,3 +1,62 @@
+# Discrete Event Simulation for Queueing Systems
+
+This repository implements **Discrete Event Simulation (DES)** to analyze queueing systems and evaluate the impact of various factors such as scheduling strategies, service time distributions, and traffic intensity on queue performance.
+
+---
+
+## Table of Contents
+
+1. [Overview](#overview)  
+2. [Simulation Details](#simulation-details)  
+   - [Queueing Configurations](#queueing-configurations)  
+   - [Objectives](#objectives)  
+3. [Directory Structure](#directory-structure)  
+4. [Requirements](#requirements)  
+5. [License](#license)  
+
+---
+
+## Overview
+
+Queueing theory provides a framework for analyzing waiting lines and system performance. In this project, we use **Discrete Event Simulation (DES)** to study:
+
+1. **Queue Configurations**:  
+   - Single-server M/M/1 and multi-server M/M/n systems.  
+   - Deterministic M/D/n and hyperexponential M/H2/n service times.  
+
+2. **Scheduling Strategies**:  
+   - **FIFO (First-In, First-Out)**: Jobs are processed in the order they arrive.  
+   - **SJF (Shortest Job First)**: Shorter jobs are prioritized.  
+
+3. **Traffic Intensity ($\rho$)**:  
+   The ratio of arrival rate ($\lambda$) to service rate ($\mu$), which directly impacts performance.
+
+4. **Performance Metrics**:  
+   - Average waiting time.  
+   - Server utilization.  
+   - Queue length distribution.  
+
+---
+
+## Simulation Details
+
+### Queueing Configurations
+
+We simulate the following scenarios:
+- **M/M/1 vs. M/M/n**: Single vs. multi-server systems to explore the impact of adding servers on waiting times.
+- **FIFO vs. SJF Scheduling**: Comparing job scheduling strategies under identical conditions.
+- **M/D/n vs. M/H2/n**: Impact of deterministic vs. hyperexponential service times on system performance.
+
+### Objectives
+
+The primary goals of the simulation are:
+1. Validate queueing theory predictions for average waiting times in M/M/1 and M/M/n systems.
+2. Assess the performance of FIFO vs. SJF scheduling strategies.
+3. Evaluate how deterministic M/D/n and hyperexponential M/H2/n service times affect performance metrics.
+4. Understand how traffic intensity ($\rho$) influences system behavior.
+
+---
+
 # Mandelbrot Set Area Estimation
 
 This repository provides Python code for computing and visualizing the Mandelbrot set and estimating its area using various sampling techniques. These methods include Monte Carlo random sampling, Latin Hypercube Sampling (LHS), Orthogonal Sampling, and Importance Sampling with Antithetic Variates. The project also compares the accuracy and efficiency of these methods.
