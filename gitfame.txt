@@ -1,0 +1,14 @@
+Total commits: 41
+Total ctimes: 365
+Total files: 9
+Total loc: 1839
+| Author         |   loc |   coms |   fils |  distribution   |
+|:---------------|------:|-------:|-------:|:----------------|
+| costadercole   |   985 |      8 |      2 | 53.6/19.5/22.2  |
+| sofiatete      |   745 |     24 |      4 | 40.5/58.5/44.4  |
+| yoadvp-bit     |   109 |      7 |      3 | 5.9/17.1/33.3   |
+| Yoad van Praag |     0 |      2 |      0 | 0.0/ 4.9/ 0.0   |
+
+
+n.b. I (Yoad) started using a new device to work on the code,  which somehow resulted in my name being shown twice. 
+     I don't know a fix / way to remove this, as I have 1 github account registered as 'yoadvp-bit'.
